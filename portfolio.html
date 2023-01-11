@@ -18,27 +18,30 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="heads site-nav">
-      <div class="container wrapper">
-        <!--child 1-->
-        <a class="logo-font" href="index.html">Web<span class="span-head">Studio</span></a>
+    <!-- NAV SECTION STARTS -->
 
-        <ul class="ul-info ul-info-links">
-          <li class="link-list"><a class="menu" href="#">Agencja</a></li>
-          <li class="link-list"><a class="menu active" href="portfolio.html">Portfolio</a></li>
-          <li class="link-list"><a class="menu" href="#">Kontakt</a></li>
+    <nav class="nav">
+      <div class="container nav__wrapper">
+        <a class="logo" href="index.html">Web<span class="logo__span--header">Studio</span></a>
+        <ul class="one-list">
+          <li class="nav__item"><a class="nav__menu nav__menu--active" href="#">Agencja</a></li>
+          <li class="nav__item"><a class="nav__menu" href="portfolio.html">Portfolio</a></li>
+          <li class="nav__item"><a class="nav__menu" href="#">Kontakt</a></li>
         </ul>
-        <!--child 2-->
+        <!--NAV SECTION ENDS-->
+
+        <!--CONTACT SECTION STARTS-->
+
         <div class="contact">
-          <a class="contact-links" href="mailto:info@devstudio.com">
-            <svg class="contact-icon" width="16" height="12">
+          <a class="contact__links" href="mailto:info@devstudio.com">
+            <svg class="contact__links-icon" width="16px" height="16px">
               <use href="images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a
           >
 
-          <a class="contact-links" href="tel:+48111111111">
-            <svg class="contact-icon" width="16" height="12">
+          <a class="contact__links" href="tel:+48111111111">
+            <svg class="contact__links-icon" width="16px" height="16px">
               <use href="images/icons.svg#icon-smartphone"></use>
             </svg>
             +48 111 111 111</a
@@ -46,6 +49,11 @@
         </div>
       </div>
     </nav>
+
+    <!--CONTACT SECTION ENDS-->
+
+    <!--BUTTONS SECTION STARTS-->
+
     <main>
       <section>
         <div class="container">
@@ -64,6 +72,11 @@
           </nav>
         </div>
       </section>
+
+      <!--BUTTONS SECTION ENDS-->
+
+      <!--CARDS SECTION STARTS-->
+
       <section class="container">
         <ul class="ul-info-port card-set">
           <li class="card-items">
@@ -266,68 +279,82 @@
         </ul>
       </section>
     </main>
-    <!-- footer section -->
 
-    <footer class="footer-info">
-      <div class="container footer-flex">
+    <!--CARDS SECTION ENDS-->
+
+    <!--FOOTER SECTION STARTS-->
+
+    <footer class="footer">
+      <div class="container footer__flex">
         <div>
-          <a class="footer-logo" href="index.html">Web<span class="span-footer">Studio</span></a>
-          <address class="address-info">
-            <div class="city-street">m.Warszawa, Aleje Jerozolimskie 21</div>
-            <div class="contact-div">
-              <a class="contact-info" href="mailto:info@example.com">info@example.com</a>
-              <a class="contact-info" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="footer__logo" href="index.html"
+            >Web<span class="footer__logo--span">Studio</span></a
+          >
+          <address class="footer__address">
+            <div class="footer__place">m.Warszawa, Aleje Jerozolimskie 21</div>
+            <div class="footer__contact">
+              <a class="footer__contact-details" href="mailto:info@example.com">info@example.com</a>
+              <a class="footer__contact-details" href="tel:+48111111111">+48 111 111 111</a>
             </div>
           </address>
         </div>
 
-        <!-- join us section -->
+        <!-- FOOTER SECTION ENDS -->
 
-        <div class="social-box">
-          <p class="social-header">Dołącz do nas</p>
-          <ul class="social-icon-box">
-            <li class="list-item">
-              <a href="#" class="social-link">
-                <svg class="icon-social">
+        <!-- JOIN SECTION STARTS -->
+
+        <div class="join__box">
+          <p class="join__description">Dołącz do nas</p>
+          <ul class="join__icon">
+            <li>
+              <a href="#" class="join__link">
+                <svg class="join__social">
                   <use href="images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
-              <a href="#" class="social-link">
-                <svg class="icon-social">
+            <li>
+              <a href="#" class="join__link">
+                <svg class="join__social">
                   <use href="images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
-              <a href="#" class="social-link">
-                <svg class="icon-social">
+            <li>
+              <a href="#" class="join__link">
+                <svg class="join__social">
                   <use href="images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
-              <a href="#" class="social-link">
-                <svg class="icon-social">
+            <li>
+              <a href="#" class="join__link">
+                <svg class="join__social">
                   <use href="images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <label>
-          <p class="newsletter-sign">zapisz się do newslettera</p>
-          <input type="email" placeholder="E-mail" class="newsletter-email" />
-          <button type="submit" class="newsletter-name">
+
+        <!-- JOIN SECTION ENDS -->
+
+        <!-- NEWSLETTER SECTION STARTS -->
+
+        <div>
+          <h2 class="newsletter">zapisz się do newslettera</h2>
+          <input type="email" placeholder="E-mail" class="newsletter__email" />
+          <button type="submit" class="newsletter__name">
             Zapisz się
-            <svg class="newsletter-icon" width="24" height="24">
+            <svg class="newsletter__icon" width="24" height="24">
               <use href="images/send.svg#icon-icon-send"></use>
             </svg>
           </button>
-        </label>
+        </div>
       </div>
     </footer>
+
+    <!-- NEWSLETTER SECTION ENDS -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>Button</button>
