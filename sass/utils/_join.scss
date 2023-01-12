@@ -1,0 +1,42 @@
+.join__box {
+  text-align: left;
+}
+
+.join__description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 22px;
+  margin-bottom: 0px;
+  color: var(--basic-white-color);
+}
+
+.join__icon {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.join__link {
+  display: block;
+  padding: 12px;
+  background-color: var(--gray-color);
+  border-radius: 50%;
+  color: var(--basic-white-color);
+  transition: var(--cubic);
+}
+
+.join__social {
+  width: 20px;
+  height: 20px;
+  display: block;
+  fill: currentColor;
+}
+
+.join__link:hover,
+.join__link:focus {
+  background-color: var(--primary-color);
+  transition: var(--cubic);
+}

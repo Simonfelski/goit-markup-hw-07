@@ -251,7 +251,7 @@ body {
   margin-left: 93px;
 }
 
-.article-atuts {
+.article__atuts {
   display: flex;
   gap: 30px;
   max-width: 1200px;
@@ -379,10 +379,6 @@ body {
   background-color: var(--basic-white-color);
 }
 
-/* .team__img {
-  vertical-align: middle;
-} */
-
 .team__container {
   font-style: normal;
   font-weight: 400;
@@ -489,6 +485,7 @@ body {
   outline-color: var(--primary-color);
   transition: var(--cubic);
 }
+
 /* CLIENT SECTION ENDS */
 
 /* FOOTER SECTION STARTS */
