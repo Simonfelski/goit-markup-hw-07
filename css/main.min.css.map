@@ -1,1 +1,12 @@
-{"version":3,"sources":["../sass/components/navigation.scss","../sass/main.scss"],"names":[],"mappings":"AAIA,MACE,mBAAA,CAAA,mBAAA,CAAA,YAAA,CCFF,KACE,aAAA","file":"main.min.css"}
+{
+  "version": 3,
+  "sources": [
+    "../sass/utils/_global.scss",
+    "../sass/utils/_vars.scss",
+    "main.min.css",
+    "../sass/components/_article.scss"
+  ],
+  "names": [],
+  "mappings": "AAIA,MACE,mBAAA,CAAA,mBAAA,CAAA,YAAA,CCFF,KACE,aAAA",
+  "file": "main.min.css"
+}
