@@ -32,23 +32,23 @@ body {
   font-size: 1.125rem;
 }
 
-.container {
+.container, .nav__container, .hero__container, .article__container, .job__container, .team__container, .client__container, .footer__container, .collection__container, .card__container {
   width: 1200px;
   margin: 0 auto;
 }
 
-.section {
+.section, .hero, .article, .job, .team, .client {
   padding: 94px 0;
   margin: 0 auto;
 }
 
-.one-item {
+.one-item, .article__one-item, .job__one-item {
   padding-top: 10px;
   border-radius: 0px 0px 4px 4px;
   position: relative;
 }
 
-.picture-box {
+.picture-box, .team__picture-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +58,7 @@ body {
           justify-content: center;
 }
 
-.one-list {
+.one-list, .nav__one-list, .team__one-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +69,7 @@ body {
   margin-left: 93px;
 }
 
-.one__button {
+.one-button, .hero__one-button {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -88,7 +88,7 @@ body {
   line-height: 160%;
 }
 
-.one__button:hover {
+.one-button:hover, .hero__one-button:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   cursor: pointer;
@@ -392,6 +392,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  color: var(--second-primary-color);
 }
 .team__item {
   list-style: none;
@@ -924,7 +925,7 @@ body {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
-.card__container {
+.card__box {
   width: 370px;
   height: 294px;
   overflow: hidden;
@@ -980,7 +981,7 @@ body {
   padding-top: 4px;
   padding-right: 24px;
 }
-.card__container:hover .card__text {
+.card__box:hover .card__text {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }/*# sourceMappingURL=main.min.css.map */

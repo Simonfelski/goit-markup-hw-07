@@ -1,6 +1,16 @@
 .article {
+  @extend .section;
+
   display: flex;
   justify-content: center;
+
+  &__container {
+    @extend .container;
+  }
+
+  &__one-item {
+    @extend .one-item;
+  }
 
   &__list {
     display: flex;

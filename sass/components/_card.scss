@@ -8,6 +8,10 @@
   column-gap: 30px;
   padding-bottom: 94px;
 
+  &__container {
+    @extend .container;
+  }
+
   &__items {
     transition: box-shadow var(--cubic);
   }
@@ -22,7 +26,7 @@
     transform: translateY(-100%);
   }
 
-  &__container {
+  &__box {
     width: 370px;
     height: 294px;
     overflow: hidden;
@@ -80,7 +84,7 @@
     padding-right: 24px;
   }
 
-  &__container:hover .card__text {
+  &__box:hover .card__text {
     transform: translateY(-100%);
   }
 }

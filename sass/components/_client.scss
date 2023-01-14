@@ -1,5 +1,10 @@
 .client {
+  @extend .section;
   background-color: var(--basic-white-color);
+
+  &__container {
+    @extend .container;
+  }
 
   &__slogan {
     text-align: center;

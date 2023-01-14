@@ -3,6 +3,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
+  &__container {
+    @extend .container;
+  }
+
   &__flex {
     display: flex;
     justify-content: left;

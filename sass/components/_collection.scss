@@ -6,6 +6,10 @@
   padding-top: 94px;
   padding-bottom: 50px;
 
+  &__container {
+    @extend .container;
+  }
+
   &__button {
     margin: 5px;
     width: 121px;

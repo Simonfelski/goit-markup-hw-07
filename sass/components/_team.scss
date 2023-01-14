@@ -1,7 +1,21 @@
 .team {
+  @extend .section;
+
   background-color: #f5f4fa;
   text-align: center;
   row-gap: 30px;
+
+  &__container {
+    @extend .container;
+  }
+
+  &__one-list {
+    @extend .one-list;
+  }
+
+  &__picture-box {
+    @extend .picture-box;
+  }
 
   &__members {
     display: flex;
@@ -12,6 +26,7 @@
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
+    color: var(--second-primary-color);
   }
 
   &__item {
